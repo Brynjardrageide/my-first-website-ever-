@@ -1,0 +1,90 @@
+body {
+    font-family: Arial;
+}
+
+/* dette er starten av coden til scrule hjulet til netsiden */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+/*dette ersluten til koden på skrule hjulet*/
+
+/*starten på css-en tiltabsa*/
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+}
+
+/*slutn på css-en til taban*/
+
+/*endrer css-en til alt som er i diven bilde*/
+.bilde {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 60px
+}
+
+/*endrer css-en til alt som er i diven defaultDiv*/
+
+.defaultDiv {
+    color: blue;
+    text-align: center;
+    background-image: url('https://i.pinimg.com/originals/bf/34/01/bf3401c640b9a3fe4f1a8662cd002fea.jpg');
+}
+
+a {
+    font-size: 20px;
+}
